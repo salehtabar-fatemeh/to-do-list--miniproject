@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="general.css" >
   </head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-5 d-flex flex-column">
       <div class="row">
         <div class="date col-4 mt-3 rounded-pill">
           <label  for="date">Date:</label><input type="text" id="date" >
@@ -16,7 +16,12 @@
         </div>
         <div class="todo-list col-3 mt-3 rounded-pill">TO DO LIST</div>
       </div>
-    
+
+      <div class="main-body col-8 mx-auto mt-8">
+        <input type="text"  class="task-tittle" placeholder="Get some task...">
+        <button class="add-btn text-bg-dark">Add</button>
+        <ul class="list"></ul>
+      </div>
     </div>
   </body>
 </html>
