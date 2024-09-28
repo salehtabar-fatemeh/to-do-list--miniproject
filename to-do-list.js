@@ -6,7 +6,8 @@ const taskInp = document.querySelector(".task-inp");
             list.innerHTML = " ";
             for(let i = 0; i<tasks.length; i++){
                 list.innerHTML+=`<li><input type="checkbox">${tasks[i]}
-                    <button onclick ="remove()">Delete task</button></li>`;
+                    <button onclick ="remove()"><span class="material-symbols-outlined">delete
+                    </span></button></li>`;
             }
         }
         update();
