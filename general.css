@@ -1,6 +1,7 @@
 @font-face{
     font-family: 'Times New Roman';
 }
+
 body{
     font-family: 'Times New Roman';
 }
@@ -13,7 +14,7 @@ div.todo-list{
     height: 30px;
     font-weight: bold;
     font-style: italic;
-   border: 1px solid rgb(100, 186, 135);
+   border: 1px solid aquamarine;
    border-width: 1px 2px 1px 8px ;
    font-family:inherit;
    margin-left: auto;
@@ -22,7 +23,7 @@ div.todo-list{
 div.date{
     font-weight: bold;
     font-style: italic;
-    border: 1px solid rgb(100, 186, 135);
+    border: 1px solid aquamarine;
    border-width: 1px 2px 1px 8px ;
    font-family: inherit;
    margin-left: 5px;
@@ -58,7 +59,8 @@ ul.list{
 }
 ul.list li{
    line-height: 40px;
-   padding: 2px 9px 2px 20px ;
+   padding-left: 20px ;
+   padding-right: 5px;
    font-family: inherit;
    margin-top: 8px;
    display: flex;
@@ -66,22 +68,21 @@ ul.list li{
 ul.list li:nth-child(even){
     background-color: pink;
     border-radius: 50px;
+    border: 2px solid aquamarine;
 }
 ul.list li:nth-child(odd){
     background-color: aquamarine;
     border-radius: 50px;
+    border: 2px solid pink;
 }
 li>input{
     margin-right: 7px;
 }
 li>button{
-    border: 3px solid gray ;
-    background-color: rgb(243, 142, 142);
-    color: azure;
+    color: rgb(222, 119, 119);
     font-weight: bold;
-    border-radius: 30px;
     margin-left: auto;
-    font-size: 12px;
-    font-family: inherit;
-
+    font-size: 40px;
+    background-color: transparent;
+    border-color: transparent;
 }
