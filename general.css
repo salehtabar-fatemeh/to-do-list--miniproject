@@ -1,8 +1,13 @@
+@font-face{
+    font-family: 'Times New Roman';
+}
+body{
+    font-family: 'Times New Roman';
+}
 div.container{
     background-color: rgb(223, 206, 206);
     border-radius: 10px;
-    width: 50%;
-    height: 600px;
+    width: 50%;    height: 100%;
 }
 div.todo-list{
     height: 30px;
@@ -10,7 +15,7 @@ div.todo-list{
     font-style: italic;
    border: 1px solid rgb(26, 26, 95);
    border-width: 1px 2px 1px 8px ;
-   font-family: 'Times New Roman', Times, serif;
+   font-family:inherit;
    margin-left: auto;
    margin-right: 5px;
 }
@@ -19,7 +24,7 @@ div.date{
     font-style: italic;
    border: 1px solid rgb(26, 26, 95);
    border-width: 1px 2px 1px 8px ;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: inherit;
    margin-left: 5px;
    padding: 4px;
 }
@@ -32,7 +37,7 @@ input.task-inp{
     width: 80%;
     height: 40px;
     outline: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: inherit;
     border-radius: 5px;
 
 }
@@ -43,4 +48,34 @@ button.add-btn{
 }
 .mt-8{
     margin-top: 8%;
+}
+ul.list{
+    list-style: none;
+}
+ul.list li{
+    line-height: 40px;
+   padding-left: 20px;
+   font-family: inherit;
+}
+ul.list li:nth-child(even){
+    background-color: pink;
+    border-radius: 20px;
+}
+ul.list li:nth-child(odd){
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+li>input{
+    margin-right: 7px;
+}
+li>button{
+    border: 3px solid gray ;
+    background-color: rgb(184, 170, 170);
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 20x;
+    padding: 0px;
+    font-family: inherit;
+
 }
