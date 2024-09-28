@@ -1,11 +1,11 @@
 const taskInp = document.querySelector(".task-inp");
         const addBtn = document.querySelector(".add-btn");
         let list = document.querySelector(".list");
-        const tasks = ["Read js", "Do homework"];
+        const tasks = ["Read js", "Do homework", "Bodybuilding exercise"];
         function update(){
             list.innerHTML = " ";
             for(let i = 0; i<tasks.length; i++){
-                list.innerHTML+= `<li><input type="checkbox">${tasks[i]}
+                list.innerHTML+=`<li><input type="checkbox">${tasks[i]}
                     <button onclick ="remove()">Delete task</button></li>`;
             }
         }
@@ -18,6 +18,6 @@ const taskInp = document.querySelector(".task-inp");
             const tasksTittle = taskInp.value;
             tasks.push(tasksTittle);
             update();
-            // taskInp.value = " ";
+            taskInp.value = " ";
             taskInp.focus();
         })
