@@ -18,6 +18,6 @@ const taskInp = document.querySelector(".task-inp");
             const tasksTittle = taskInp.value;
             tasks.push(tasksTittle);
             update();
-            taskInp.value = " ";
+            // taskInp.value = " ";
             taskInp.focus();
         })

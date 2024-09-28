@@ -28,7 +28,7 @@ input#day,input#date{
     border-color: transparent;
     outline: 0;
 }
-input.task-tittle{
+input.task-inp{
     width: 80%;
     height: 40px;
     outline: 0;
