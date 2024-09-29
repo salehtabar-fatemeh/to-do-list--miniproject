@@ -33,6 +33,7 @@ input#day,input#date{
     background-color: transparent;
     border-color: transparent;
     outline: 0;
+    width: 70%;
 }
 input.task-inp{
     width: 80%;
@@ -44,7 +45,7 @@ input.task-inp{
 
 }
 button.add-btn{
-    width: 15%;
+    width: 17%;
     border-radius: 5px;
     height: 40px;
     background-color: rgb(243, 142, 142);
