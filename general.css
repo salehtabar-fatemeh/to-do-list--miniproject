@@ -11,7 +11,7 @@ div.container{
     width: 50%;    height: 100%;
 }
 div.todo-list{
-    height: 30px;
+    height: 40px;
     font-weight: bold;
     font-style: italic;
    border: 1px solid aquamarine;
@@ -33,10 +33,10 @@ input#day,input#date{
     background-color: transparent;
     border-color: transparent;
     outline: 0;
-    width: 70%;
+    width: 60%;
 }
 input.task-inp{
-    width: 80%;
+    width: 75%;
     height: 40px;
     outline: 0;
     font-family: inherit;
@@ -45,7 +45,7 @@ input.task-inp{
 
 }
 button.add-btn{
-    width: 17%;
+    width: 20%;
     border-radius: 5px;
     height: 40px;
     background-color: rgb(243, 142, 142);
@@ -59,12 +59,13 @@ ul.list{
     width: 90%;
 }
 ul.list li{
-   line-height: 40px;
+   line-height: 25px;
    padding-left: 20px ;
    padding-right: 5px;
    font-family: inherit;
    margin-top: 8px;
    display: flex;
+   font-weight: bold;
 }
 ul.list li:nth-child(even){
     background-color: pink;
